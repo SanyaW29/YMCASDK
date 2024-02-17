@@ -37,7 +37,7 @@ function generateUniqueToken() {
         delivery:false
     }
 
-    botOptions.JWTUrl = " http://localhost:3000/api/users/sts";
+    botOptions.JWTUrl = "https://ymca-demo-bot.onrender.com/api/users/sts";
     botOptions.userIdentity = UserToken;// Provide users email id here
     botOptions.botInfo = { name: "WR YMCA Teacher Bot", "_id": "st-87d2b169-c763-52ac-af3c-0910d21944e2" }; // bot name is case sensitive
 
