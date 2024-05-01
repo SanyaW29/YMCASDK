@@ -37,7 +37,8 @@ function generateUniqueToken() {
         delivery:false
     }
 
-    botOptions.JWTUrl = "https://http://54.173.49.28:4000/api/users/sts";
+    botOptions.JWTUrl = "http://54.173.49.28:4000/api/users/sts";
+    // botOptions.JWTUrl = "http://localhost:4000/api/users/sts";
     botOptions.userIdentity = UserToken;// Provide users email id here
     botOptions.botInfo = { name: "WR YMCA Teacher Bot", "_id": "st-87d2b169-c763-52ac-af3c-0910d21944e2" }; // bot name is case sensitive
 
